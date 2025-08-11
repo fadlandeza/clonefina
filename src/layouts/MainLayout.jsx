@@ -219,7 +219,7 @@ const MainLayout = () => {
         {/* Hero Section */}
         <section className="relative z-10 flex flex-col items-center justify-center text-center px-4 pt-20 pb-10">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-            Platform <span className="text-sky-500">SiFina</span>
+            Platform <span className="text-sky-500">SIFina</span>
           </h1>
           <p className="mt-4 text-gray-700 text-lg max-w-3xl">
             Sesuaikan kebutuhan Anda dan temukan kemudahan dalam mengelola

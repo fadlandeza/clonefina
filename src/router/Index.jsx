@@ -9,6 +9,9 @@ import TentangBSB from "../pages/Tentang-BSB";
 import TentangSIFina from "../pages/Tentang-SIFina";
 import Kontak from "../pages/Kontak";
 
+// Collab Page Baru
+import LandingDashboard from "../pages/LandingDashboard";
+
 const Router = () => {
   return (
     <Routes>
@@ -22,26 +25,12 @@ const Router = () => {
       <Route path="/otp-verifikasi" element={<VerifikasiOTP />} />
       <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/register-akun" element={<Register />} />
+
+      {/* Page Collab */}
+      <Route path="/LandingDashboard" element={<LandingDashboard />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 };
 
 export default Router;
-
-// import {Navigate, Route, Routes} from "react-router-dom";
-// import LoginPage from "../page/LoginPage";
-// import Dashboard from "../page/Dashboard";
-
-// const Router = () => {
-//     return (
-//         <Routes>
-//             <Route path="/" element={<LoginPage/>} />
-//             <Route path="/login" element={<LoginPage />} />
-//             <Route path="/dashboard" element={<Dashboard />} />
-//             <Route path="*" element={<Navigate to="/" replace />} />
-//         </Routes>
-//     );
-// }
-
-// export default Router;
